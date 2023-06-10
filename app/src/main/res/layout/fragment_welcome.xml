@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context=".WelcomeFragment">
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="110dp"
+        android:src="@drawable/ic_kuda_bank"
+        android:layout_gravity="center_horizontal"/>
+
+    <com.google.android.material.imageview.ShapeableImageView
+        app:shapeAppearanceOverlay="@style/roundedImageViewRounded"
+        android:layout_width="220dp"
+        android:layout_height="220dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@mipmap/ic_launcher"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30sp"
+        android:layout_marginTop="60dp"
+        android:gravity="center"
+        android:fontFamily="@font/muli_extrabold"
+        android:text="@string/the_money_app_for_africans"
+        android:textSize="28sp"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="16dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/border"
+        android:fontFamily="@font/muli_extrabold"
+        android:gravity="center"
+        android:paddingVertical="12dp"
+        android:text="@string/open_an_account"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:backgroundTint="@color/kuda_purple" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="16dp"
+        android:layout_marginTop="15dp"
+        android:paddingVertical="12dp"
+        android:gravity="center"
+        android:textColor="@color/kuda_purple"
+        android:text="@string/already_have_an_account_sign_in"
+        android:textAllCaps="false"
+        android:background="@drawable/border2"
+        android:fontFamily="@font/muli_extrabold"
+        android:textSize="16sp"
+        android:textStyle="bold"/>
+
+</LinearLayout>
