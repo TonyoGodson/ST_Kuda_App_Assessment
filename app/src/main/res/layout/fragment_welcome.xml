@@ -8,12 +8,14 @@
     tools:context=".WelcomeFragment">
 
     <ImageView
+        android:id="@+id/title_iv"
         android:layout_width="200dp"
         android:layout_height="110dp"
         android:src="@drawable/ic_kuda_bank"
         android:layout_gravity="center_horizontal"/>
 
     <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/welcome_iv"
         app:shapeAppearanceOverlay="@style/roundedImageViewRounded"
         android:layout_width="220dp"
         android:layout_height="220dp"
@@ -22,6 +24,7 @@
 
 
     <TextView
+        android:id="@+id/motto_tv"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="30sp"
@@ -33,6 +36,7 @@
         android:textColor="@color/black"/>
 
     <TextView
+        android:id="@+id/open_account_tv"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="16dp"
@@ -49,6 +53,7 @@
         app:backgroundTint="@color/kuda_purple" />
 
     <TextView
+        android:id="@+id/already_tv"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="16dp"

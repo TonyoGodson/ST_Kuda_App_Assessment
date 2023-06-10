@@ -55,6 +55,7 @@
             android:textSize="18sp" />
 
         <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/signup_email_tlo"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginHorizontal="15dp"
@@ -63,8 +64,8 @@
             app:helperText="Username or password is invalid."
             app:helperTextEnabled="true"
             app:helperTextTextColor="@android:color/holo_red_dark">
-
             <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/signup_email_et"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:hint="@string/youremail_here_com"
@@ -87,6 +88,7 @@
             android:textSize="18sp" />
 
         <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/signup_password_tlo"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginHorizontal="15dp"
@@ -97,6 +99,7 @@
             app:passwordToggleEnabled="true">
 
             <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/signup_password_et"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:hint="••••••••••"
@@ -118,6 +121,7 @@
             android:textSize="18sp" />
 
         <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/signup_confirm_tlo"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginHorizontal="15dp"
@@ -126,8 +130,8 @@
             app:helperTextEnabled="true"
             app:helperTextTextColor="@android:color/holo_red_dark"
             app:passwordToggleEnabled="true">
-
             <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/signup_confirm_et"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:hint="••••••••••"
@@ -174,6 +178,7 @@
                     </androidx.cardview.widget.CardView>
 
                     <TextView
+                        android:id="@+id/have_referral_tv"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_vertical"
@@ -185,22 +190,17 @@
                         android:textSize="19sp" />
 
                     <ImageView
+                        android:id="@+id/toggle_referral_iv"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_vertical"
                         android:layout_marginEnd="10dp"
                         android:buttonTint="@color/kuda_green"
                         android:src="@drawable/ic_baseline_keyboard_arrow_down_24" />
-
-                    <!--                <CheckBox-->
-                    <!--                    android:layout_width="wrap_content"-->
-                    <!--                    android:layout_height="wrap_content"-->
-                    <!--                    android:layout_gravity="center_vertical"-->
-                    <!--                    android:layout_marginEnd="10dp"-->
-                    <!--                    android:buttonTint="@color/kuda_green"/>-->
                 </LinearLayout>
 
                 <LinearLayout
+                    android:id="@+id/referral_llo"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:orientation="vertical"
@@ -270,13 +270,14 @@
                         android:textSize="16sp" />
 
                     <com.google.android.material.textfield.TextInputLayout
+                        android:id="@+id/referral_tlo"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginHorizontal="15dp"
                         app:boxStrokeColor="@color/black"
                         app:boxStrokeWidth="3dp">
-
                         <com.google.android.material.textfield.TextInputEditText
+                            android:id="@+id/referral_et"
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
                             android:hint="xxxxxxxxxx"
@@ -303,6 +304,7 @@
             android:letterSpacing="0.0"/>
 
         <TextView
+            android:id="@+id/refferal_next_tv"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginHorizontal="16dp"

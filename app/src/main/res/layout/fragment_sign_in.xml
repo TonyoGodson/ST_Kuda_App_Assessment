@@ -8,6 +8,7 @@
     tools:context=".SignUpFragment">
 
     <ImageView
+        android:id="@+id/signin_help_iv"
         android:layout_width="30dp"
         android:layout_height="30dp"
         android:layout_gravity="end"
@@ -45,6 +46,7 @@
         android:layout_gravity="start"/>
 
     <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/signin_email_tlo"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="15dp"
@@ -54,6 +56,7 @@
         app:helperTextTextColor="@android:color/holo_red_dark"
         app:helperText="Username or password is invalid.">
         <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/signin_email_et"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:hint="@string/youremail_here_com"
@@ -75,6 +78,7 @@
         android:layout_gravity="start"/>
 
     <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/signin_password_tlo"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="15dp"
@@ -84,6 +88,7 @@
         app:helperText="Username or password is invalid."
         app:passwordToggleEnabled="true">
         <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/signin_password_et"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:hint="••••••••••"
@@ -93,6 +98,7 @@
     </com.google.android.material.textfield.TextInputLayout>
 
     <TextView
+        android:id="@+id/signin_btn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="16dp"
@@ -109,6 +115,7 @@
         app:backgroundTint="@color/kuda_purple" />
 
     <TextView
+        android:id="@+id/signin_change_password_tv"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="16dp"

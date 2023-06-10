@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/kuda_nav_graph"
+    app:startDestination="@id/welcomeFragment">
+
+    <fragment
+        android:id="@+id/welcomeFragment"
+        android:name="com.godston.st_task_kuda.WelcomeFragment"
+        android:label="fragment_welcome"
+        tools:layout="@layout/fragment_welcome" >
+        <action
+            android:id="@+id/action_welcomeFragment_to_openAccountFragment"
+            app:destination="@id/openAccountFragment" />
+        <action
+            android:id="@+id/action_welcomeFragment_to_signUpFragment"
+            app:destination="@id/signUpFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/openAccountFragment"
+        android:name="com.godston.st_task_kuda.OpenAccountFragment"
+        android:label="fragment_open_account"
+        tools:layout="@layout/fragment_open_account" >
+        <action
+            android:id="@+id/action_openAccountFragment_to_signUpFragmant"
+            app:destination="@id/signUpFragmant" />
+    </fragment>
+    <fragment
+        android:id="@+id/signUpFragment"
+        android:name="com.godston.st_task_kuda.SignUpFragment"
+        android:label="fragment_sign_in"
+        tools:layout="@layout/fragment_sign_in" />
+    <fragment
+        android:id="@+id/signUpFragmant"
+        android:name="com.godston.st_task_kuda.SignUpFragmant"
+        android:label="fragment_sign_up"
+        tools:layout="@layout/fragment_sign_up" />
+</navigation>
