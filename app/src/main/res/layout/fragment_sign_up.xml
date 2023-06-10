@@ -61,7 +61,7 @@
             android:layout_marginHorizontal="15dp"
             app:boxStrokeColor="@color/black"
             app:boxStrokeWidth="3dp"
-            app:helperText="Username or password is invalid."
+            app:hintEnabled="false"
             app:helperTextEnabled="true"
             app:helperTextTextColor="@android:color/holo_red_dark">
             <com.google.android.material.textfield.TextInputEditText
@@ -93,7 +93,7 @@
             android:layout_height="wrap_content"
             android:layout_marginHorizontal="15dp"
             app:boxStrokeWidth="3dp"
-            app:helperText="Username or password is invalid."
+            app:hintEnabled="false"
             app:helperTextEnabled="true"
             app:helperTextTextColor="@android:color/holo_red_dark"
             app:passwordToggleEnabled="true">
@@ -126,7 +126,7 @@
             android:layout_height="wrap_content"
             android:layout_marginHorizontal="15dp"
             app:boxStrokeWidth="3dp"
-            app:helperText="Username or password is invalid."
+            app:hintEnabled="false"
             app:helperTextEnabled="true"
             app:helperTextTextColor="@android:color/holo_red_dark"
             app:passwordToggleEnabled="true">
@@ -185,7 +185,7 @@
                         android:layout_marginStart="20dp"
                         android:layout_weight="1"
                         android:fontFamily="@font/muli_extrabold"
-                        android:text="Have a referral code?"
+                        android:text="@string/have_a_referral_code"
                         android:textColor="@color/black"
                         android:textSize="19sp" />
 

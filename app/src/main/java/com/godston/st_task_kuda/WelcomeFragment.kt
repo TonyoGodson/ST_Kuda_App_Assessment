@@ -34,5 +34,10 @@ class WelcomeFragment : Fragment() {
             val action = WelcomeFragmentDirections.actionWelcomeFragmentToOpenAccountFragment()
             findNavController().navigate(action)
         }
+        binding.alreadyTv.setOnClickListener {
+            val action = WelcomeFragmentDirections.actionWelcomeFragmentToSignInFragment()
+            findNavController().navigate(action)
+        }
+
     }
 }

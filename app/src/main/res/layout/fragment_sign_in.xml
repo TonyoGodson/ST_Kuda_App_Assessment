@@ -52,9 +52,8 @@
         android:layout_marginHorizontal="15dp"
         app:boxStrokeWidth="3dp"
         app:boxStrokeColor="@color/black"
-        app:helperTextEnabled="true"
-        app:helperTextTextColor="@android:color/holo_red_dark"
-        app:helperText="Username or password is invalid.">
+        app:hintEnabled="false"
+        app:helperTextTextColor="@android:color/holo_red_dark">
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/signin_email_et"
             android:layout_width="match_parent"
@@ -83,9 +82,8 @@
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="15dp"
         app:boxStrokeWidth="3dp"
-        app:helperTextEnabled="true"
+        app:hintEnabled="false"
         app:helperTextTextColor="@android:color/holo_red_dark"
-        app:helperText="Username or password is invalid."
         app:passwordToggleEnabled="true">
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/signin_password_et"

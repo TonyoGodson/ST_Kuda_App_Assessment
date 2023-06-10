@@ -14,8 +14,8 @@
             android:id="@+id/action_welcomeFragment_to_openAccountFragment"
             app:destination="@id/openAccountFragment" />
         <action
-            android:id="@+id/action_welcomeFragment_to_signUpFragment"
-            app:destination="@id/signUpFragment" />
+            android:id="@+id/action_welcomeFragment_to_signInFragment"
+            app:destination="@id/signInFragment" />
     </fragment>
     <fragment
         android:id="@+id/openAccountFragment"
@@ -25,9 +25,12 @@
         <action
             android:id="@+id/action_openAccountFragment_to_signUpFragmant"
             app:destination="@id/signUpFragmant" />
+        <action
+            android:id="@+id/action_openAccountFragment_to_welcomeFragment"
+            app:destination="@id/welcomeFragment" />
     </fragment>
     <fragment
-        android:id="@+id/signUpFragment"
+        android:id="@+id/signInFragment"
         android:name="com.godston.st_task_kuda.SignUpFragment"
         android:label="fragment_sign_in"
         tools:layout="@layout/fragment_sign_in" />
@@ -35,5 +38,9 @@
         android:id="@+id/signUpFragmant"
         android:name="com.godston.st_task_kuda.SignUpFragmant"
         android:label="fragment_sign_up"
-        tools:layout="@layout/fragment_sign_up" />
+        tools:layout="@layout/fragment_sign_up" >
+        <action
+            android:id="@+id/action_signUpFragmant_to_openAccountFragment"
+            app:destination="@id/openAccountFragment" />
+    </fragment>
 </navigation>

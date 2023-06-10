@@ -13,6 +13,7 @@
     <string name="a_bvn_bank_verification_number">A BVN (Bank Verification Number)</string>
     <string name="a_valid_uk_address">A valid UK address</string>
     <string name="next">Next</string>
+    <string name="referral_code">Referral Code?</string>
     <string name="coming_soon">Coming Soon</string>
     <string name="hey_there">Hey there!</string>
     <string name="email_address">Email Address</string>
@@ -23,4 +24,5 @@
     <string name="invite_your_friends">Invite your friends and family \nto enjoy Kuda with your \nreferral code</string>
 <!--    <string name="by_tapping">By tapping \"Next\", you agree to our \nTerms &amp; Conditions and Privacy Policy</string>-->
     <string name="by_tapping">By tapping "Next", you agree to our\n<font fgcolor="#48D38A" size="19" style="bold">&lt;a href="terms_conditions" &gt;Terms &amp; Conditions and Privacy Policy.&lt;/a&gt;</font></string>
+    <string name="have_a_referral_code">Have a referral code?</string>
 </resources>
