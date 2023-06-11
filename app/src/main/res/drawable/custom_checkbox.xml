@@ -4,6 +4,8 @@
 <!--        android:drawable="@drawable/checked" />-->
 <!--    <item android:state_pressed="true"-->
 <!--        android:drawable="@drawable/checked" />-->
+<!--    <item android:state_checked="false"-->
+<!--        android:drawable="@drawable/unchecked" />-->
 <!--    <item android:state_pressed="false"-->
 <!--        android:drawable="@drawable/unchecked" />-->
 <!--</selector>-->
@@ -11,22 +13,8 @@
 
 <!--<?xml version="1.0" encoding="utf-8"?>-->
 <selector xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:state_checked="true">
-        <shape android:shape="rectangle">
-            <!-- Define the background color when checkbox is checked -->
-            <solid android:color="@color/kuda_green" />
-
-            <!-- Define the corner radius of the checkbox -->
-            <corners android:radius="8dp" />
-        </shape>
-    </item>
-    <item>
-        <shape android:shape="rectangle">
-            <!-- Define the background color when checkbox is unchecked -->
-<!--            <solid android:color="@color/kuda_green" />-->
-            <stroke android:width="1dp" android:color="@color/kuda_green" />
-            <!-- Define the corner radius of the checkbox -->
-            <corners android:radius="250dp" />
-        </shape>
-    </item>
+    <item android:state_checked="true"
+        android:drawable="@drawable/ic_ellipse_6"/>
+    <item android:state_checked="false"
+        android:drawable="@drawable/ic_ellipse_5"/>
 </selector>

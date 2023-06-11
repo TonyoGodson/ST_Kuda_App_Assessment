@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "24780487124",
+    "project_id": "st-task-kuda",
+    "storage_bucket": "st-task-kuda.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:24780487124:android:78fcea9b1c6a24b86abe41",
+        "android_client_info": {
+          "package_name": "com.godston.st_task_kuda"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "24780487124-9m452ehu6am36ebhn6bnd82gqpg66j10.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDaVkF1zWHFChtLoyH_-tp4iKNDDhefTII"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "24780487124-9m452ehu6am36ebhn6bnd82gqpg66j10.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

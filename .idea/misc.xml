@@ -11,8 +11,13 @@
         <entry key="app/src/main/res/drawable/checked.xml" value="0.1615" />
         <entry key="app/src/main/res/drawable/circle.xml" value="0.1615" />
         <entry key="app/src/main/res/drawable/circle2.xml" value="0.1615" />
+        <entry key="app/src/main/res/drawable/custom_checkbox.xml" value="0.1615" />
         <entry key="app/src/main/res/drawable/ic_baseline_circle_24.xml" value="0.1615" />
         <entry key="app/src/main/res/drawable/ic_baseline_question_mark_24.xml" value="0.1615" />
+        <entry key="app/src/main/res/drawable/ic_ellipse_5.xml" value="0.1615" />
+        <entry key="app/src/main/res/drawable/ic_ellipse_6.xml" value="0.1615" />
+        <entry key="app/src/main/res/drawable/ic_frame0.xml" value="0.1615" />
+        <entry key="app/src/main/res/drawable/ic_frame3.xml" value="0.1615" />
         <entry key="app/src/main/res/drawable/ic_gift2.xml" value="0.1615" />
         <entry key="app/src/main/res/drawable/unchecked.xml" value="0.1615" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.2947916666666667" />

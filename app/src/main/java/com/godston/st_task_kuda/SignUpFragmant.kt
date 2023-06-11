@@ -34,6 +34,9 @@ class SignUpFragmant : Fragment() {
         binding.toggleReferralIv.setOnClickListener {
             toggleRefCodeLayout()
         }
+        binding.openAcctBackBtn.setOnClickListener {
+            backToOpenAccountFragment()
+        }
     }
 
     fun toggleRefCodeLayout() {

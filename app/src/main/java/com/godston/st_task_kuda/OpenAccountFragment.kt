@@ -50,16 +50,16 @@ class OpenAccountFragment : Fragment() {
     }
     fun selectNGN() {
         binding.openAccountNgnLlo.visibility = View.VISIBLE
-        gbpAcctChkBox.isSelected = false
-        ngnAcctChkBox.isSelected = false
+        gbpAcctChkBox.isChecked = false
+        ngnAcctChkBox.isChecked = true
         binding.openAccountGbpLlo.visibility = View.GONE
         binding.openAccountNgnCv.strokeWidth = 3
         binding.openAccountGbpCv.strokeWidth = 0
     }
     fun selectGBP() {
         binding.openAccountGbpLlo.visibility = View.VISIBLE
-        ngnAcctChkBox.isSelected = false
-        gbpAcctChkBox.isSelected = true
+        ngnAcctChkBox.isChecked = false
+        gbpAcctChkBox.isChecked = true
         binding.openAccountNgnLlo.visibility = View.GONE
         binding.openAccountGbpCv.strokeWidth = 3
         binding.openAccountNgnCv.strokeWidth = 0
