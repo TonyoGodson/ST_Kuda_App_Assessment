@@ -31,9 +31,13 @@
     </fragment>
     <fragment
         android:id="@+id/signInFragment"
-        android:name="com.godston.st_task_kuda.SignUpFragment"
+        android:name="com.godston.st_task_kuda.SignInFragment"
         android:label="fragment_sign_in"
-        tools:layout="@layout/fragment_sign_in" />
+        tools:layout="@layout/fragment_sign_in" >
+        <action
+            android:id="@+id/action_signInFragment_to_otpFragment"
+            app:destination="@id/otpFragment" />
+    </fragment>
     <fragment
         android:id="@+id/signUpFragmant"
         android:name="com.godston.st_task_kuda.SignUpFragmant"
@@ -43,4 +47,33 @@
             android:id="@+id/action_signUpFragmant_to_openAccountFragment"
             app:destination="@id/openAccountFragment" />
     </fragment>
+    <fragment
+        android:id="@+id/otpFragment"
+        android:name="com.godston.st_task_kuda.OtpFragment"
+        android:label="fragment_otp"
+        tools:layout="@layout/fragment_otp" >
+        <action
+            android:id="@+id/action_otpFragment_to_signInFragment"
+            app:destination="@id/signInFragment" />
+        <action
+            android:id="@+id/action_otpFragment_to_passcodeFragment2"
+            app:destination="@id/passcodeFragment2" />
+    </fragment>
+    <fragment
+        android:id="@+id/passcodeFragment2"
+        android:name="com.godston.st_task_kuda.PasscodeFragment2"
+        android:label="fragment_passcode_2"
+        tools:layout="@layout/fragment_passcode_2" >
+        <action
+            android:id="@+id/action_passcodeFragment2_to_signInFragment"
+            app:destination="@id/signInFragment" />
+        <action
+            android:id="@+id/action_passcodeFragment2_to_passcodeOkFragment"
+            app:destination="@id/passcodeOkFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/passcodeOkFragment"
+        android:name="com.godston.st_task_kuda.PasscodeOkFragment"
+        android:label="fragment_passcode_ok"
+        tools:layout="@layout/fragment_passcode_ok" />
 </navigation>

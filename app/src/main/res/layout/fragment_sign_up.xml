@@ -30,7 +30,7 @@
             android:fontFamily="@font/muli_extrabold"
             android:text="@string/email_amp_password"
             android:textColor="@color/black"
-            android:textSize="22sp"
+            android:textSize="19sp"
             android:textStyle="bold" />
 
         <TextView
@@ -42,7 +42,7 @@
             android:fontFamily="@font/muli"
             android:text="@string/create_a_kuda"
             android:textColor="@color/black"
-            android:textSize="18sp" />
+            android:textSize="16sp" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -53,15 +53,15 @@
             android:fontFamily="@font/muli"
             android:text="@string/email_address"
             android:textColor="@color/black"
-            android:textSize="18sp" />
+            android:textSize="16sp" />
 
         <com.google.android.material.textfield.TextInputLayout
             android:id="@+id/signup_email_tlo"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginHorizontal="15dp"
-            app:boxStrokeColor="@color/black"
-            app:boxStrokeWidth="3dp"
+            app:boxStrokeWidth="0dp"
+            app:boxStrokeColor="@color/kuda_purple"
             app:hintEnabled="false"
             app:helperTextEnabled="true"
             app:helperTextTextColor="@android:color/holo_red_dark">
@@ -72,8 +72,9 @@
                 android:hint="@string/youremail_here_com"
                 android:inputType="textEmailAddress"
                 android:lines="1"
-                android:paddingVertical="15dp"
-                android:textSize="18sp" />
+                android:paddingTop="10dp"
+                android:paddingBottom="12dp"
+                android:textSize="16sp" />
         </com.google.android.material.textfield.TextInputLayout>
 
 
@@ -86,19 +87,19 @@
             android:fontFamily="@font/muli"
             android:text="Password"
             android:textColor="@color/black"
-            android:textSize="18sp" />
+            android:textSize="16sp" />
 
         <com.google.android.material.textfield.TextInputLayout
             android:id="@+id/signup_password_tlo"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginHorizontal="15dp"
-            app:boxStrokeWidth="3dp"
+            app:boxStrokeWidth="0dp"
+            app:boxStrokeColor="@color/kuda_purple"
             app:hintEnabled="false"
             app:helperTextEnabled="true"
             app:helperTextTextColor="@android:color/holo_red_dark"
             app:passwordToggleEnabled="true">
-
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/signup_password_et"
                 android:layout_width="match_parent"
@@ -106,8 +107,9 @@
                 android:hint="••••••••••"
                 android:inputType="textPassword"
                 android:lines="1"
-                android:paddingVertical="15dp"
-                android:textSize="18sp" />
+                android:paddingTop="13dp"
+                android:paddingBottom="11dp"
+                android:textSize="16sp" />
         </com.google.android.material.textfield.TextInputLayout>
 
         <TextView
@@ -119,14 +121,15 @@
             android:fontFamily="@font/muli"
             android:text="Confirm Password"
             android:textColor="@color/black"
-            android:textSize="18sp" />
+            android:textSize="16sp" />
 
         <com.google.android.material.textfield.TextInputLayout
             android:id="@+id/signup_confirm_tlo"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginHorizontal="15dp"
-            app:boxStrokeWidth="3dp"
+            app:boxStrokeWidth="0dp"
+            app:boxStrokeColor="@color/kuda_purple"
             app:hintEnabled="false"
             app:helperTextEnabled="true"
             app:helperTextTextColor="@android:color/holo_red_dark"
@@ -138,15 +141,16 @@
                 android:hint="••••••••••"
                 android:inputType="textPassword"
                 android:lines="1"
-                android:paddingVertical="15dp"
-                android:textSize="18sp" />
+                android:paddingTop="13dp"
+                android:paddingBottom="12dp"
+                android:textSize="16sp" />
         </com.google.android.material.textfield.TextInputLayout>
 
         <com.google.android.material.card.MaterialCardView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginHorizontal="20dp"
-            android:layout_marginTop="25dp"
+            android:layout_marginHorizontal="15dp"
+            android:layout_marginTop="20dp"
             android:layout_marginBottom="30dp"
             app:cardCornerRadius="5dp"
             app:cardElevation="2dp"
@@ -155,12 +159,13 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
                 android:layout_marginBottom="10dp"
                 android:orientation="vertical">
 
                 <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="60dp"
+                    android:layout_height="40dp"
                     android:orientation="horizontal">
 
                     <androidx.cardview.widget.CardView
@@ -188,7 +193,7 @@
                         android:fontFamily="@font/muli_extrabold"
                         android:text="@string/have_a_referral_code"
                         android:textColor="@color/black"
-                        android:textSize="19sp" />
+                        android:textSize="16sp" />
 
                     <ImageView
                         android:id="@+id/toggle_referral_iv"
@@ -229,7 +234,7 @@
                             android:fontFamily="@font/muli_bold"
                             android:text="@string/spread_the_love"
                             android:textColor="@color/black"
-                            android:textSize="19sp" />
+                            android:textSize="16sp" />
                     </LinearLayout>
 
                     <LinearLayout
@@ -256,7 +261,7 @@
                             android:fontFamily="@font/muli"
                             android:text="@string/invite_your_friends"
                             android:textColor="@color/black"
-                            android:textSize="17sp" />
+                            android:textSize="15sp" />
                     </LinearLayout>
 
                     <TextView
@@ -266,7 +271,7 @@
                         android:layout_marginStart="15dp"
                         android:layout_marginTop="10dp"
                         android:fontFamily="@font/muli"
-                        android:text="Referral Code (Nigeria Only)"
+                        android:text="@string/r_code_nigeria_only"
                         android:textColor="@color/black"
                         android:textSize="16sp" />
 
@@ -277,7 +282,7 @@
                         android:layout_marginHorizontal="15dp"
                         app:boxStrokeColor="@color/black"
                         app:hintEnabled="false"
-                        app:boxStrokeWidth="3dp">
+                        app:boxStrokeWidth="0dp">
                         <com.google.android.material.textfield.TextInputEditText
                             android:id="@+id/referral_et"
                             android:layout_width="match_parent"
@@ -285,7 +290,7 @@
                             android:hint="@string/xxxxxxxxxx"
                             android:inputType="textEmailAddress"
                             android:lines="1"
-                            android:paddingVertical="15dp"
+                            android:paddingVertical="10dp"
                             android:textSize="20sp" />
                     </com.google.android.material.textfield.TextInputLayout>
                 </LinearLayout>
@@ -302,7 +307,7 @@
             android:fontFamily="@font/muli"
             android:text="@string/by_tapping"
             android:textColor="@color/black"
-            android:textSize="18sp"
+            android:textSize="15sp"
             android:letterSpacing="0.0"/>
 
         <TextView

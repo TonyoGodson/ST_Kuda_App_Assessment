@@ -83,7 +83,8 @@
                     android:layout_gravity="center_vertical"
                     android:layout_marginEnd="10dp"
                     android:buttonTint="@color/kuda_green"
-                    android:button="@drawable/custom_checkbox" />
+                    android:button="@drawable/custom_checkbox"
+                    android:background="@android:color/transparent"/>
             </LinearLayout>
             <LinearLayout
                 android:id="@+id/open_Account_ngn_llo"
@@ -158,7 +159,9 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_vertical"
                     android:layout_marginEnd="10dp"
-                    android:buttonTint="@color/kuda_green" />
+                    android:buttonTint="@color/kuda_green"
+                    android:button="@drawable/custom_checkbox"
+                    android:background="@android:color/transparent" />
             </LinearLayout>
             <LinearLayout
                 android:id="@+id/open_account_gbp_llo"
@@ -223,7 +226,7 @@
                     android:layout_marginStart="20dp"
                     android:layout_weight="1"
                     android:fontFamily="@font/muli_extrabold"
-                    android:text="UGX Account"
+                    android:text="@string/ugx_account"
                     android:textColor="@color/black"
                     android:textSize="19sp" />
 
@@ -246,7 +249,9 @@
 <!--                    android:layout_height="wrap_content"-->
 <!--                    android:layout_gravity="center_vertical"-->
 <!--                    android:layout_marginEnd="10dp"-->
-<!--                    android:buttonTint="@color/kuda_green" />-->
+<!--                    android:buttonTint="@color/kuda_green"-->
+<!--                    android:button="@drawable/custom_checkbox"-->
+<!--                    android:background="@android:color/transparent"/>&ndash;&gt;-->
             </LinearLayout>
             <LinearLayout
                 android:id="@+id/open_account_ugx_llo"
@@ -334,7 +339,10 @@
 <!--                    android:layout_height="wrap_content"-->
 <!--                    android:layout_gravity="center_vertical"-->
 <!--                    android:layout_marginEnd="10dp"-->
-<!--                    android:buttonTint="@color/kuda_green" />-->
+<!--                    android:buttonTint="@color/kuda_green"
+                        android:buttonTint="@color/kuda_green"
+                        android:button="@drawable/custom_checkbox"
+                        android:background="@android:color/transparent"/>-->
             </LinearLayout>
             <LinearLayout
                 android:id="@+id/open_account_ghs_llo"

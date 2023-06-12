@@ -17,10 +17,13 @@
     <com.google.android.material.imageview.ShapeableImageView
         android:id="@+id/welcome_iv"
         app:shapeAppearanceOverlay="@style/roundedImageViewRounded"
-        android:layout_width="220dp"
-        android:layout_height="220dp"
+        android:layout_width="240dp"
+        android:layout_height="240dp"
+        android:padding="3dp"
         android:layout_gravity="center_horizontal"
-        android:src="@mipmap/ic_launcher"/>
+        app:strokeWidth="2dp"
+        app:strokeColor="@color/kuda_grey"
+        android:src="@drawable/mb2"/>
 
 
     <TextView

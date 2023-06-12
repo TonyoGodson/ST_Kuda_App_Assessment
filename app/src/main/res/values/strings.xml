@@ -22,8 +22,17 @@
     <string name="email_amp_password"><![CDATA[Email & Password]]></string>
     <string name="spread_the_love">Spread the love!</string>
     <string name="invite_your_friends">Invite your friends and family \nto enjoy Kuda with your \nreferral code</string>
-<!--    <string name="by_tapping">By tapping \"Next\", you agree to our \nTerms &amp; Conditions and Privacy Policy</string>-->
-    <string name="by_tapping">By tapping "Next", you agree to our\n<font fgcolor="#48D38A" size="19" style="bold">&lt;a href="terms_conditions" &gt;Terms &amp; Conditions and Privacy Policy.&lt;/a&gt;</font></string>
+    <!--    <string name="by_tapping">By tapping \"Next\", you agree to our \nTerms &amp; Conditions and Privacy Policy</string>-->
+    <string name="by_tapping">By tapping "Next", you agree to our\n<font style="bold" fgcolor="#48D38A" size="16">&lt;a href="terms_conditions" &gt;Terms &amp; Conditions and Privacy Policy.&lt;/a&gt;</font></string>
     <string name="have_a_referral_code">Have a referral code?</string>
     <string name="xxxxxxxxxx">xxxxxxxxxx</string>
+    <string name="ugx_account">UGX Account</string>
+    <string name="create_a_passcode">Create a passcode to sign in to your \naccount securely. Please don\'t share \nyour passcode with anyone</string>
+    <string name="passcode">Passcode</string>
+    <string name="cpasscode">Confirm Passcode</string>
+    <string name="r_code_nigeria_only">Referral Code (Nigeria Only)</string>
+    <string name="you_ve_set_your_passcode">You\'ve set your passcode.</string>
+    <string name="you_can_now">You can now sign in to your account \nwith your passcode.</string>
+    <string name="okay">Okay</string>
+    <string name="confirm_your_passcode">Confirm your Passcode</string>
 </resources>
