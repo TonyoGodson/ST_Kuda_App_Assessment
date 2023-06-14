@@ -13,6 +13,7 @@
         <entry key="app/src/main/res/drawable/circle.xml" value="0.1615" />
         <entry key="app/src/main/res/drawable/circle2.xml" value="0.1615" />
         <entry key="app/src/main/res/drawable/custom_checkbox.xml" value="0.1615" />
+        <entry key="app/src/main/res/drawable/ic_baseline_arrow_back_ios_24.xml" value="0.1615" />
         <entry key="app/src/main/res/drawable/ic_baseline_circle_2.xml" value="0.1615" />
         <entry key="app/src/main/res/drawable/ic_baseline_circle_24.xml" value="0.1615" />
         <entry key="app/src/main/res/drawable/ic_baseline_circle_3.xml" value="0.1615" />
@@ -27,8 +28,12 @@
         <entry key="app/src/main/res/drawable/unchecked.xml" value="0.1615" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.2947916666666667" />
         <entry key="app/src/main/res/layout/fragment2_passcode.xml" value="0.3098958333333333" />
+        <entry key="app/src/main/res/layout/fragment_about_you.xml" value="0.3098958333333333" />
+        <entry key="app/src/main/res/layout/fragment_confirm_email.xml" value="0.29583333333333334" />
+        <entry key="app/src/main/res/layout/fragment_get_started.xml" value="0.3098958333333333" />
         <entry key="app/src/main/res/layout/fragment_open_account.xml" value="0.2947916666666667" />
         <entry key="app/src/main/res/layout/fragment_otp.xml" value="0.3098958333333333" />
+        <entry key="app/src/main/res/layout/fragment_passcode_2.xml" value="0.25833333333333336" />
         <entry key="app/src/main/res/layout/fragment_passcode_ok.xml" value="0.3098958333333333" />
         <entry key="app/src/main/res/layout/fragment_sign_in.xml" value="0.2947916666666667" />
         <entry key="app/src/main/res/layout/fragment_sign_up.xml" value="0.2672955974842767" />

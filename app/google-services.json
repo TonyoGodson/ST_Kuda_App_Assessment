@@ -1,6 +1,7 @@
 {
   "project_info": {
     "project_number": "24780487124",
+    "firebase_url": "https://st-task-kuda-default-rtdb.firebaseio.com",
     "project_id": "st-task-kuda",
     "storage_bucket": "st-task-kuda.appspot.com"
   },
@@ -13,6 +14,14 @@
         }
       },
       "oauth_client": [
+        {
+          "client_id": "24780487124-ej70brv3l8t6ku1fa0c5md6jel76su5e.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.godston.st_task_kuda",
+            "certificate_hash": "30cda53743a8ef32447d37eb53961876267e3366"
+          }
+        },
         {
           "client_id": "24780487124-9m452ehu6am36ebhn6bnd82gqpg66j10.apps.googleusercontent.com",
           "client_type": 3

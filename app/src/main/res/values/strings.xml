@@ -35,4 +35,23 @@
     <string name="you_can_now">You can now sign in to your account \nwith your passcode.</string>
     <string name="okay">Okay</string>
     <string name="confirm_your_passcode">Confirm your Passcode</string>
+    <string name="confirm_email">We\'ll send a code to your email address \nto confirm that it\'s actually yours.</string>
+    <string name="verification_code">Verification Code</string>
+    <string name="pass_hint">••••••••••</string>
+    <string name="resend_code">Resend Code</string>
+    <string name="open_email_app">Open Email App</string>
+    <string name="about_you">Tell Us A Bit About Yourself</string>
+    <string name="add_your_name">Please add your name as it appears\non your official documents or means of\nidentification.</string>
+    <string name="legal_first_name">Legal First Name</string>
+    <string name="uzowuihe">Uzowuihe</string>
+    <string name="legal_mn">Legal Middle Name (Optional)</string>
+    <string name="legal_ln">Legal Last Name</string>
+    <string name="chioma">Chioma</string>
+    <string name="gender">Gender</string>
+    <string name="choose_one">Choose One</string>
+    <string name="dd_mm_yyyy">DD/MM/YYYY</string>
+    <string name="dob">Date Of Birth</string>
+    <string name="cynthia_dazzling">Cynthia Dazzling</string>
+    <string name="please_complete">Please complete yur profilesetup below to remove the limits on your account.</string>
+    <string name="get_started">Get Started</string>
 </resources>

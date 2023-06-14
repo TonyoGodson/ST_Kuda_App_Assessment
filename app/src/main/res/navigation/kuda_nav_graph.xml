@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/welcomeFragment"
-        android:name="com.godston.st_task_kuda.WelcomeFragment"
+        android:name="com.godston.st_task_kuda.ui.fragments.WelcomeFragment"
         android:label="fragment_welcome"
         tools:layout="@layout/fragment_welcome" >
         <action
@@ -19,7 +19,7 @@
     </fragment>
     <fragment
         android:id="@+id/openAccountFragment"
-        android:name="com.godston.st_task_kuda.OpenAccountFragment"
+        android:name="com.godston.st_task_kuda.ui.fragments.OpenAccountFragment"
         android:label="fragment_open_account"
         tools:layout="@layout/fragment_open_account" >
         <action
@@ -31,7 +31,7 @@
     </fragment>
     <fragment
         android:id="@+id/signInFragment"
-        android:name="com.godston.st_task_kuda.SignInFragment"
+        android:name="com.godston.st_task_kuda.ui.fragments.SignInFragment"
         android:label="fragment_sign_in"
         tools:layout="@layout/fragment_sign_in" >
         <action
@@ -40,16 +40,19 @@
     </fragment>
     <fragment
         android:id="@+id/signUpFragmant"
-        android:name="com.godston.st_task_kuda.SignUpFragmant"
+        android:name="com.godston.st_task_kuda.ui.fragments.SignUpFragmant"
         android:label="fragment_sign_up"
         tools:layout="@layout/fragment_sign_up" >
         <action
             android:id="@+id/action_signUpFragmant_to_openAccountFragment"
             app:destination="@id/openAccountFragment" />
+        <action
+            android:id="@+id/action_signUpFragmant_to_confirmEmailFragment"
+            app:destination="@id/confirmEmailFragment" />
     </fragment>
     <fragment
         android:id="@+id/otpFragment"
-        android:name="com.godston.st_task_kuda.OtpFragment"
+        android:name="com.godston.st_task_kuda.ui.fragments.OtpFragment"
         android:label="fragment_otp"
         tools:layout="@layout/fragment_otp" >
         <action
@@ -61,7 +64,7 @@
     </fragment>
     <fragment
         android:id="@+id/passcodeFragment2"
-        android:name="com.godston.st_task_kuda.PasscodeFragment2"
+        android:name="com.godston.st_task_kuda.ui.fragments.PasscodeFragment2"
         android:label="fragment_passcode_2"
         tools:layout="@layout/fragment_passcode_2" >
         <action
@@ -70,10 +73,46 @@
         <action
             android:id="@+id/action_passcodeFragment2_to_passcodeOkFragment"
             app:destination="@id/passcodeOkFragment" />
+        <action
+            android:id="@+id/action_passcodeFragment2_to_otpFragment"
+            app:destination="@id/otpFragment" />
     </fragment>
     <fragment
         android:id="@+id/passcodeOkFragment"
-        android:name="com.godston.st_task_kuda.PasscodeOkFragment"
+        android:name="com.godston.st_task_kuda.ui.fragments.PasscodeOkFragment"
         android:label="fragment_passcode_ok"
-        tools:layout="@layout/fragment_passcode_ok" />
+        tools:layout="@layout/fragment_passcode_ok" >
+        <action
+            android:id="@+id/action_passcodeOkFragment_to_getStartedFragment"
+            app:destination="@id/getStartedFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/confirmEmailFragment"
+        android:name="com.godston.st_task_kuda.ui.fragments.ConfirmEmailFragment"
+        android:label="fragment_confirm_email"
+        tools:layout="@layout/fragment_confirm_email" >
+        <action
+            android:id="@+id/action_confirmEmailFragment_to_aboutYouFragment"
+            app:destination="@id/aboutYouFragment" />
+        <action
+            android:id="@+id/action_confirmEmailFragment_to_signUpFragmant"
+            app:destination="@id/signUpFragmant" />
+    </fragment>
+    <fragment
+        android:id="@+id/aboutYouFragment"
+        android:name="com.godston.st_task_kuda.ui.fragments.AboutYouFragment"
+        android:label="fragment_about_you"
+        tools:layout="@layout/fragment_about_you" >
+        <action
+            android:id="@+id/action_aboutYouFragment_to_confirmEmailFragment"
+            app:destination="@id/confirmEmailFragment" />
+        <action
+            android:id="@+id/action_aboutYouFragment_to_getStartedFragment"
+            app:destination="@id/getStartedFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/getStartedFragment"
+        android:name="com.godston.st_task_kuda.ui.fragments.GetStartedFragment"
+        android:label="fragment_get_started"
+        tools:layout="@layout/fragment_get_started" />
 </navigation>

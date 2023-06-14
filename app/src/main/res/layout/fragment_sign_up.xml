@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".SignUpFragmant"
+    tools:context=".ui.fragments.SignUpFragmant"
     android:windowSoftInputMode="adjustResize">
 
     <LinearLayout
@@ -325,7 +325,6 @@
             android:background="@drawable/border"
             android:fontFamily="@font/muli_extrabold"
             android:textSize="16sp"
-            android:textStyle="bold"
-            android:enabled="false"/>
+            android:textStyle="bold"/>
     </LinearLayout>
 </ScrollView>

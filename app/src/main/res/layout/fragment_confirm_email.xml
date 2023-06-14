@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.fragments.ConfirmEmailFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingBottom="30dp">
+
+        <ImageView
+            android:id="@+id/confirm_email_back_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="6dp"
+            android:layout_marginTop="10dp"
+            android:padding="10dp"
+            android:src="@drawable/ic_baseline_arrow_back_ios_24" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="25dp"
+            android:fontFamily="@font/muli_extrabold"
+            android:text="Confirm Your Email Address"
+            android:textColor="@color/black"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="15dp"
+            android:fontFamily="@font/muli"
+            android:text="@string/confirm_email"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:layout_marginTop="30dp"
+            android:layout_marginStart="15dp"
+            android:drawablePadding="5dp"
+            android:fontFamily="@font/muli"
+            android:text="@string/passcode"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="24sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="15dp"
+            android:fontFamily="@font/muli"
+            android:text="@string/verification_code"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/confirm_email_tlo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="15dp"
+            app:boxStrokeWidth="0dp"
+            app:boxStrokeColor="@color/kuda_purple"
+            app:hintEnabled="false"
+            app:helperTextTextColor="@android:color/holo_red_dark"
+            app:passwordToggleEnabled="true">
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/signin_password_et"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="@string/pass_hint"
+                android:paddingTop="10dp"
+                android:gravity="center_vertical"
+                android:textSize="18sp"
+                android:inputType="textPassword"
+                android:lines="1"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <TextView
+            android:id="@+id/resend_code_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="16dp"
+            android:layout_marginTop="15dp"
+            android:paddingTop="18dp"
+            android:paddingBottom="8dp"
+            android:gravity="center"
+            android:textColor="@color/kuda_green"
+            android:text="@string/resend_code"
+            android:textAllCaps="false"
+            android:fontFamily="@font/muli_extrabold"
+            android:textSize="19sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/open_eemail_app_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="16dp"
+            android:paddingTop="8dp"
+            android:paddingBottom="18dp"
+            android:gravity="center"
+            android:textColor="@color/kuda_purple"
+            android:text="@string/open_email_app"
+            android:textAllCaps="false"
+            android:fontFamily="@font/muli_extrabold"
+            android:textSize="19sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="@integer/material_motion_duration_long_1"
+            android:visibility="invisible"
+            android:layout_marginHorizontal="16dp"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/border"
+            android:fontFamily="@font/muli_extrabold"
+            android:gravity="center"
+            android:paddingVertical="12dp"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:backgroundTint="@color/kuda_purple" />
+        <TextView
+            android:id="@+id/confirm_email_next_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="16dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginBottom="0dp"
+            android:background="@drawable/border"
+            android:fontFamily="@font/muli_extrabold"
+            android:gravity="center"
+            android:paddingVertical="12dp"
+            android:text="@string/next"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:backgroundTint="@color/kuda_purple" />
+
+    </LinearLayout>
+</LinearLayout>
