@@ -12,7 +12,6 @@ import androidx.fragment.app.activityViewModels
 import androidx.navigation.fragment.findNavController
 import com.godston.st_task_kuda.R
 import com.godston.st_task_kuda.databinding.FragmentSignUpBinding
-import com.godston.st_task_kuda.utils.Common
 import com.godston.st_task_kuda.viewmodel.KudaViewModel
 import com.google.firebase.database.DatabaseReference
 import com.google.firebase.database.FirebaseDatabase
@@ -45,7 +44,6 @@ class SignUpFragmant : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-
         binding.toggleReferralIv.setOnClickListener {
             toggleRefCodeLayout()
         }
@@ -55,7 +53,6 @@ class SignUpFragmant : Fragment() {
         binding.refferalNextTv.setOnClickListener {
             checkInputs()
         }
-
     }
 //    private fun init() {
 //        firebaseDatabase = FirebaseDatabase.getInstance()
@@ -102,6 +99,14 @@ class SignUpFragmant : Fragment() {
                     Toast.makeText(
                         requireContext(),
                         "Please Confirm Your Password",
+                        Toast.LENGTH_LONG
+                    ).show()
+                }
+                signupConfirmEt.text.toString().trim { it <= ' ' } != signupPasswordEt.text.toString().trim { it <= ' ' }
+                -> {
+                    Toast.makeText(
+                        requireContext(),
+                        "Passwords do not match, please check and try again",
                         Toast.LENGTH_LONG
                     ).show()
                 }

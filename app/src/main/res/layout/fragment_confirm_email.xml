@@ -45,6 +45,7 @@
             android:textSize="18sp" />
 
         <TextView
+            android:id="@+id/email_here"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="start"
@@ -52,7 +53,7 @@
             android:layout_marginStart="15dp"
             android:drawablePadding="5dp"
             android:fontFamily="@font/muli"
-            android:text="@string/passcode"
+            android:text="Email Here"
             android:textColor="@color/black"
             android:textStyle="bold"
             android:textSize="24sp" />
@@ -107,7 +108,7 @@
             android:textStyle="bold"/>
 
         <TextView
-            android:id="@+id/open_eemail_app_tv"
+            android:id="@+id/open_email_app_tv"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginHorizontal="16dp"
