@@ -87,6 +87,10 @@ class SignInFragment : Fragment() {
                     }
                 }
             }
+            signinChangePasswordTv.setOnClickListener{
+                val action = SignInFragmentDirections.actionSignInFragmentToChangePasswordFragment()
+                findNavController().navigate(action)
+            }
         }
     }
 }

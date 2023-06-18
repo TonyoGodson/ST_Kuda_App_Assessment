@@ -29,6 +29,7 @@
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.2947916666666667" />
         <entry key="app/src/main/res/layout/fragment2_passcode.xml" value="0.3098958333333333" />
         <entry key="app/src/main/res/layout/fragment_about_you.xml" value="0.3098958333333333" />
+        <entry key="app/src/main/res/layout/fragment_change_password.xml" value="0.2947916666666667" />
         <entry key="app/src/main/res/layout/fragment_confirm_email.xml" value="0.29583333333333334" />
         <entry key="app/src/main/res/layout/fragment_get_started.xml" value="0.3098958333333333" />
         <entry key="app/src/main/res/layout/fragment_open_account.xml" value="0.2947916666666667" />

@@ -54,4 +54,11 @@
     <string name="cynthia_dazzling">Cynthia Dazzling</string>
     <string name="please_complete">Please complete yur profilesetup below to remove the limits on your account.</string>
     <string name="get_started">Get Started</string>
+    <string name="reset">Reset</string>
+    <string name="please_enter">Please enter the email address on your \nKuda account.</string>
+    <string name="done">Done</string>
+    <string name="change_password">Change Password</string>
+    <string name="sign_in">Sign In</string>
+    <string name="passwordhint">••••••••••</string>
+    <string name="password">Password</string>
 </resources>

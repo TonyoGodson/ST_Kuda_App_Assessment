@@ -37,6 +37,9 @@
         <action
             android:id="@+id/action_signInFragment_to_otpFragment"
             app:destination="@id/otpFragment" />
+        <action
+            android:id="@+id/action_signInFragment_to_changePasswordFragment"
+            app:destination="@id/changePasswordFragment" />
     </fragment>
     <fragment
         android:id="@+id/signUpFragmant"
@@ -115,4 +118,13 @@
         android:name="com.godston.st_task_kuda.ui.fragments.GetStartedFragment"
         android:label="fragment_get_started"
         tools:layout="@layout/fragment_get_started" />
+    <fragment
+        android:id="@+id/changePasswordFragment"
+        android:name="com.godston.st_task_kuda.ui.fragments.ChangePasswordFragment"
+        android:label="fragment_change_password"
+        tools:layout="@layout/fragment_change_password" >
+        <action
+            android:id="@+id/action_changePasswordFragment_to_signInFragment"
+            app:destination="@id/signInFragment" />
+    </fragment>
 </navigation>
